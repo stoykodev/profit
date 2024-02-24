@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.671);
+}
+header h1 {
+  color: white;
+}
+header p {
+  color: azure;
+  font-size: 2rem;
+}

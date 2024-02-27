@@ -1,0 +1,43 @@
+:root {
+	--osnovnoy-cvet: #45d068;
+	--chernyy-cvet: #3c3e44;
+	--belyy-cvet: #fff;
+	--cvet-fona: #f6f6f6;
+	--seryy-cvet: #777;
+	--linii: #eaebf2;
+	--vtoroy-cvet: #fbae03;
+	--cvet-2: #00a0fb;
+	--seryy-2: #cecece;
+	--seryy-na-serom: #e0e0e3;
+	--zelenіy-10: #f0fbf3;
+	--siniy-10: #eafaff;
+	--whatsapp: #28a71a;
+	--telegram: #25a4e2;
+	--reyting: #d2cedd;
+	--krasnyy: #ed1c24;
+
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Manrope", sans-serif;
+    --third-family: "Geometria", sans-serif;
+    --font3: "Unbounded", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    height: 100%;
+    object-fit: contain;
+}
+a{
+	text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin-inline: auto;
+	&-wide{
+		width: 100%;
+	}
+}

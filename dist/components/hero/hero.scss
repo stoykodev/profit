@@ -1,0 +1,50 @@
+.hero{
+    width: 100%;
+    background-image: url("/components/assets/img/hero-bg.webp");
+    margin-top: -40px;
+
+    &__content{
+        min-width: 620px;
+        max-width: 622px;
+
+        .hero__claim{
+            padding-top: 90px;
+            p{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140%;
+                color: var(--chernyy-cvet);
+                span{
+                    height: 40px;
+                    width: 40px;
+                    margin-left: 14px;
+                    display: inline-block;
+                }
+            }
+        }
+        .hero__heading{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 140%;
+            color: var(--chernyy-cvet);
+            span{
+                font-weight: 700;
+                display: flex;
+                flex-direction: column;
+                width: fit-content;
+                &:first-child{
+                    max-width: 184px;
+                }
+                &:last-child{
+                    max-width: 354px;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

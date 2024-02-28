@@ -10,7 +10,7 @@
   --cvet-2: #00a0fb;
   --seryy-2: #cecece;
   --seryy-na-serom: #e0e0e3;
-  --zelenіy-10: #f0fbf3;
+  --zeleniy-10: #f0fbf3;
   --siniy-10: #eafaff;
   --whatsapp: #28a71a;
   --telegram: #25a4e2;
@@ -26,6 +26,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 img {
